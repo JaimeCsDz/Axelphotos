@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/medias.css">
+    <script defer src="./assets/js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <title>Axel Varguez</title>
+</head>
+<body>
+    <!--navbar-->
+    <header class="header">
+        <nav class="nav">
+            <a href="#hero" class="logo">AXEL VARGUEZ</a>
+            <button class="nav-toggle" aria-label="abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="#hero" class="nav-menu-link nav-link active">Inicio</a></li>
+                <li class="nav-menu-item"><a href="#sectionA" class="nav-menu-link nav-link">¿Quien soy?</a></li>
+                <li class="nav-menu-item"><a href="#section-paquetes" class="nav-menu-link nav-link">Paquetes</a></li>
+                <li class="nav-menu-item"><a href="#contacto" class="nav-menu-link nav-link">Contacto</a></li>            
+            </ul>
+        </nav>
+    </header>
+    <!--Hero (imagen portada)-->
+    <div id="hero">
+        <h3 class="desc-hero">Lo importante es ver aquello que resulta invisible para los demás.</h3>
+    </div>
+    <div id="sectionA">
+        <div class="container_nosotros">
+			<div class="content-section">
+				<div class="content">
+					<h3>Axel Varguez</h3>
+					<p>¡Hola! Mi nombre es Axel Varguez, Soy un fotógrafo cancunense con experiencia en sesiones y eventos sociales de fotografía profesional. Quisiera compartirte a través de mi lente tus mejores recuerdos en la Riviera Maya.</p>
+					<div class="button">
+						<a href="tel:9988900013">Contactame!</a>
+					</div>
+				</div>
+			</div>
+			<div class="image-section">
+				<img src="./assets/img/Axel.jpg">
+			</div>
+		</div>
+    </div>
+
+
+    <!--Cartas paquetes-->
+    <div id="section-paquetes">
+        <h1 class="titulo">Paquetes principales</h1>
+        <section class="card">
+            <div class="card-curso">
+                <div class="card-nom">
+                    <h2>Gastronomia/E-commerce</h2>
+                </div>
+                <hr>
+                <div class="descripcion">
+                    <p>40 Fotos digitales</p>
+                    <p>1 Video reel</p>
+                </div>
+                <hr>
+                <div class="boton">
+                    <a class="enlace" onclick="sendWhatsAppMessage()">Agenda.</a>
+                </div>
+            </div>
+            <div class="card-curso">
+                <div class="card-nom">
+                    <h2>Flash click</h2>
+                </div>
+                <hr>
+                <div class="descripcion">
+                    <p>45 fotos digitales editadas</p>
+                    <p>1 hora de sesión</p>
+                    <p>Galeria Digital</p>
+                    <p>Sin limite de personas</p>
+                    <p>Solo para: (Cancún, Playa del Carmen y Puerto Morelos)</p>
+                </div>
+                <hr>
+                <div class="boton">
+                    <a class="enlace" onclick="sendWhatsAppMessage()">Agenda.</a>
+                </div>
+            </div>
+            <div class="card-curso">
+                <div class="card-nom">
+                    <h2>Rivierita</h2>
+                </div>
+                <hr>
+                <div class="descripcion">
+                    <p>60 fotos digitales editadas</p>
+                    <p>Sin límite de tiempo de sesión</p>
+                    <p>Galeria Digital</p>
+                    <p>Sin limite de personas</p>
+                    <p>2 cambios de vestuario max.</p>
+                    <p>Solo para: (Cancún, Playa del Carmen y Puerto Morelos)</p>
+                </div>
+                <hr>
+                <div class="boton">
+                    <a class="enlace" onclick="sendWhatsAppMessage()">Agenda.</a>
+                </div>
+            </div>
+            <div class="card-curso">
+                <div class="card-nom">
+                    <h2>Like Star</h2>
+                </div>
+                <hr>
+                <div class="descripcion">
+                    <p>Todas las fotos de la sesion editadas</p>
+                    <p>Sin límite de tiempo de sesión</p>
+                    <p>Galeria Digital</p>
+                    <p>Sin limite de personas</p>
+                    <p>4 cambios de vestuario max.</p>
+                    <p>1 video Reel para redes sociales</p>
+                    <p>5 fotos digitales instantaneas al terminar la sesión</p>
+                    <p>Solo para: (Cancún, Playa del Carmen, Puerto Morelos, Tulum y Holbox)</p>
+                </div>
+                <hr>
+                <div class="boton">
+                    <a class="enlace" onclick="sendWhatsAppMessage()">Agenda.</a>
+                </div>
+            </div>
+        </section>
+    </div>
+<!--Contacto-->
+<div id="contacto">
+    <h1>Contacto.</h1>
+    <h3>&#9743 +52 9988</h3>
+    <h3>axelvarguez@gmail.com</h3>
+    <div class="wraper">
+        <ul>
+            <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100063628357486"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+            <li class="instagram"><a href="https://www.instagram.com/axelvarguezphotographer/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+            <li class="whatsapp"><a href="" onclick="sendWhatsAppMessage()""><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
